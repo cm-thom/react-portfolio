@@ -1,11 +1,10 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div>
-      <p>it works!</p>
-      <Navbar />
+      <Nav />
     </div>
 
   );

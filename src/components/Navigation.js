@@ -7,7 +7,7 @@ function Navigation() {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Cole Thompson</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="mx-auto">
             <Nav.Link href="#about">About Me</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>

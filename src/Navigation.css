@@ -1,40 +1,62 @@
  .nav {
     width: 25%;
-    backdrop-filter: blur(35px);
+    padding-left: 5px;
+    padding-right: 5px;
+    backdrop-filter: blur(1.5rem);
     justify-content: center;
     border-radius: 10px;
     display: flex;
     margin: auto;
     overflow: hidden;
     font-size: 18px;
-    font-weight: 500;
-}
-
-.appWrapper {
-    background-image: url('https://placekitten.com/1920/1090');
-    background-size: cover;
-    z-index: -1;
-}
-
-#main {
-    padding: 10px;
-    width: 60%;
-    margin: 5% auto;
-    justify-content: center;
-    backdrop-filter: blur(35px);
-    border-radius: 10px;
-    overflow: hidden;
+    font-weight: 400;
     border: 1px black solid;
 
 }
 
+.appWrapper {
+    background-image: url(./background-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    padding-bottom: 70px;
+}
+
+#home {
+    padding: 10px;
+    width: 60%;
+    margin: 2.5% auto;
+    justify-content: center;
+    /* backdrop-filter: blur(1.5rem); */
+    border-radius: 10px;
+    overflow: hidden;
+    /* border: 1px black solid; */
+    font-weight: 350;
+
+}
+
 #about {
-    /* border: 1px red dashed; */
+    border: 1px black solid;
+    margin: 2.5% auto;
+    padding: 10px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     font-size: 24px;
+    backdrop-filter: blur(1.5rem);
+
 }
 
-.nav-text {
-    color: white;
+#portfolio {
+
+}
+
+#contact {
+    
+}
+
+#resume {
+    
 }

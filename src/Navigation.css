@@ -1,0 +1,40 @@
+ .nav {
+    width: 25%;
+    backdrop-filter: blur(35px);
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.appWrapper {
+    background-image: url('https://placekitten.com/1920/1090');
+    background-size: cover;
+    z-index: -1;
+}
+
+#main {
+    padding: 10px;
+    width: 60%;
+    margin: 5% auto;
+    justify-content: center;
+    backdrop-filter: blur(35px);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+
+}
+
+#about {
+    /* border: 1px red dashed; */
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.nav-text {
+    color: white;
+}

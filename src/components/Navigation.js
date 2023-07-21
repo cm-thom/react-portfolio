@@ -1,20 +1,30 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import "../Navigation.css";
+import Nav from "react-bootstrap/Nav";
 
 function Navigation() {
   return (
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Cole Thompson</Navbar.Brand>
-          <Nav className="mx-auto">
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+    <Nav className="nav" justify variant="underline" defaultActiveKey="#home">
+      <Nav.Item>
+        <Nav.Link className="nav-text" href="#home">
+          Home
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link className="nav-text" href="#portfolio">
+          Portfolio
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link className="nav-text" href="#contact">
+          Contact
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link className="nav-text" href="#resume">
+          Resume
+        </Nav.Link>
+      </Nav.Item>
+    </Nav>
   );
 }
 

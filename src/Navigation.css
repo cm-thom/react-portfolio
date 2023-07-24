@@ -15,48 +15,43 @@
 }
 
 .appWrapper {
-    background-image: url(./background-image.jpeg);
+    background: linear-gradient(225deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    padding-bottom: 70px;
+    padding-top: 10px;
 }
 
-#home {
+.main-content-area {
     padding: 10px;
     width: 60%;
     margin: 2.5% auto;
-    justify-content: center;
+    /* justify-content: center; */
     /* backdrop-filter: blur(1.5rem); */
     border-radius: 10px;
-    overflow: hidden;
     /* border: 1px black solid; */
-    font-weight: 350;
-
 }
 
-#about {
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.actual-content {
     border: 1px black solid;
-    margin: 2.5% auto;
+    overflow: hidden;
     padding: 10px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     font-size: 24px;
+    font-weight: 375;
     backdrop-filter: blur(1.5rem);
-
+    animation: fadein 2s;
 }
 
-#portfolio {
-
-}
-
-#contact {
-    
-}
-
-#resume {
-    
+.headshot {
+    padding: 10px;
 }

@@ -22,6 +22,7 @@
     height: 100vh;
     z-index: -1;
     padding-top: 10px;
+
 }
 
 .main-content-area {
@@ -32,6 +33,7 @@
     /* backdrop-filter: blur(1.5rem); */
     border-radius: 10px;
     /* border: 1px black solid; */
+    
 }
 
 @keyframes fadein {
@@ -51,6 +53,7 @@
     font-weight: 375;
     backdrop-filter: blur(1.5rem);
     animation: fadein 2s;
+
 }
 
 .headshot {
